@@ -39,7 +39,16 @@
             <div class="editor-container">
                 <div id="noteText" class="note-area"></div>
             </div>
-
+        <div id="qrModal" class="modal hidden">
+            <div class="modal-backdrop">
+            </div>
+            <div class="modal-content">
+                <button class="close-btn" id="closeQr">&times;</button>
+                <h2>Scan to open</h2>
+                <canvas id="qrCanvas"></canvas>
+                <p class="qr-hint">Point your camera at the code</p>
+            </div>
+        </div>
             <div class="controls">
                 <button id="passwordToggle" class="btn">Password</button>
                 <div id="passwordGroup" class="password-group">
