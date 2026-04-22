@@ -1,1 +1,1 @@
-# urlnote.app
+# urlnote
